@@ -23,6 +23,6 @@
 
   ## 💰 You can help me by Donating
   [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/abbassamaha) 
-  ![snake gif](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-snake-dark.svg)
+  ![snake gif](https://github.com/SamahaAbbas/SamahaAbbas/blob/output/github-snake-dark.svg)
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
