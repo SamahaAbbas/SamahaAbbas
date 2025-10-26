@@ -44,7 +44,7 @@ I **automate everything** — even my VPN and testing setup 😎
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
-[![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=SamahaAbbas.SamahaAbbas&style=flat-square)](https://github.com/SamahaAbbas)
+![Profile Views](https://komarev.com/ghpvc/?username=SamahaAbbas&color=blue)
 
 ## 💰 You can help me by Donating
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/abbassamaha)
