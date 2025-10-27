@@ -1,4 +1,4 @@
-> # 💫 About Me
+> # About Me
 >
 > 🔭 **I’m currently working on:**  
 > - **FureVex VPN Infrastructure** — building a **scalable, multi-protocol VPN system** (OpenVPN, WireGuard, Shadowsocks, V2Ray) with **AWS automation** and **Telegram bot integration**.  
