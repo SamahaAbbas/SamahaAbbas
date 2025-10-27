@@ -1,36 +1,31 @@
-# About Me
-
-🔭 **I’m currently working on:**  
-
-- **FureVex VPN Infrastructure** — building a **scalable, multi-protocol VPN system** (OpenVPN, WireGuard, Shadowsocks, V2Ray) with **AWS automation** and **Telegram bot integration**.  
-- **QA Automation Frameworks** — developing **end-to-end, component, and RPA test suites** using **Robot Framework**.  
-- **Performance Testing** — conducting **load testing with K6** and **real-time monitoring with Grafana**.  
-- **DevOps CI/CD Pipelines** — automating **deployment and testing workflows** for maximum efficiency.  
-
-👯 **I’m looking to collaborate on:**  
-
-- **Open-source QA automation tools**.  
-- **Cloud-based VPN and DevOps projects**.  
-- **Performance testing dashboards and observability systems**.  
-
-🤝 **I’m looking for help with:**  
-
-- **Optimizing VPN connection reliability and scalability**.  
-- **Integrating advanced monitoring into test automation pipelines**.  
-
-🌱 **I’m currently learning:**  
-
-- **Advanced CI/CD with GitHub Actions**.  
-- **Infrastructure as Code (IaC) and Cloud DevOps**.  
-- **AI-driven automation and testing frameworks**.  
-
-💬 **Ask me about:**  
-**VPN systems, QA testing, performance testing with K6 and Grafana, Linux systems, Python automation, and cloud infrastructure.**  
-
-⚡ **Fun fact:**  
-I **automate everything** — even my VPN and testing setup 😎  
-*(btw I use **Arch Linux 🐧**)*  
-
+> # 💫 About Me
+>
+> 🔭 **I’m currently working on:**  
+> - **FureVex VPN Infrastructure** — building a **scalable, multi-protocol VPN system** (OpenVPN, WireGuard, Shadowsocks, V2Ray) with **AWS automation** and **Telegram bot integration**.  
+> - **QA Automation Frameworks** — developing **end-to-end, component, and RPA test suites** using **Robot Framework**.  
+> - **Performance Testing** — conducting **load testing with K6** and **real-time monitoring with Grafana**.  
+> - **DevOps CI/CD Pipelines** — automating **deployment and testing workflows** for maximum efficiency.  
+>
+> 👯 **I’m looking to collaborate on:**  
+> - **Open-source QA automation tools**.  
+> - **Cloud-based VPN and DevOps projects**.  
+> - **Performance testing dashboards and observability systems**.  
+>
+> 🤝 **I’m looking for help with:**  
+> - **Optimizing VPN connection reliability and scalability**.  
+> - **Integrating advanced monitoring into test automation pipelines**.  
+>
+> 🌱 **I’m currently learning:**  
+> - **Advanced CI/CD with GitHub Actions**.  
+> - **Infrastructure as Code (IaC) and Cloud DevOps**.  
+> - **AI-driven automation and testing frameworks**.  
+>
+> 💬 **Ask me about:**  
+> **VPN systems, QA testing, performance testing with K6 and Grafana, Linux systems, Python automation, and cloud infrastructure.**  
+>
+> ⚡ **Fun fact:**  
+> I **automate everything** — even my VPN and testing setup 😎  
+> *(btw I use **Arch Linux 🐧**)*
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/772131084896698400) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abbas-samaha) 
