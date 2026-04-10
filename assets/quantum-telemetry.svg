@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <linearGradient id="cg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ff">
+        <animate attributeName="stop-color" values="#0ff;#f0f;#0ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#f0f">
+        <animate attributeName="stop-color" values="#f0f;#0ff;#f0f" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="barGrad1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0ff"/>
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#f0f"/>
+    </linearGradient>
+    <linearGradient id="barGrad3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0f0"/>
+    </linearGradient>
+    <filter id="cg-glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cg-glow-sm">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    @keyframes borderRun { to { stroke-dashoffset: -60; } }
+    @keyframes scanDown { 0% { transform: translateY(-30px); opacity: 0; } 50% { opacity: 0.08; } 100% { transform: translateY(240px); opacity: 0; } }
+    @keyframes pulse { 0%,100% { opacity:0.5; } 50% { opacity:1; } }
+    @keyframes barRise1 { 0% { height: 0; y: 170; } 100% { height: 60; y: 110; } }
+    @keyframes barRise2 { 0% { height: 0; y: 170; } 100% { height: 90; y: 80; } }
+    @keyframes barRise3 { 0% { height: 0; y: 170; } 100% { height: 45; y: 125; } }
+    @keyframes barRise4 { 0% { height: 0; y: 170; } 100% { height: 110; y: 60; } }
+    @keyframes barRise5 { 0% { height: 0; y: 170; } 100% { height: 75; y: 95; } }
+    @keyframes barRise6 { 0% { height: 0; y: 170; } 100% { height: 130; y: 40; } }
+    @keyframes barRise7 { 0% { height: 0; y: 170; } 100% { height: 55; y: 115; } }
+    @keyframes barRise8 { 0% { height: 0; y: 170; } 100% { height: 95; y: 75; } }
+    @keyframes barRise9 { 0% { height: 0; y: 170; } 100% { height: 40; y: 130; } }
+    @keyframes barRise10 { 0% { height: 0; y: 170; } 100% { height: 120; y: 50; } }
+    @keyframes barRise11 { 0% { height: 0; y: 170; } 100% { height: 70; y: 100; } }
+    @keyframes barRise12 { 0% { height: 0; y: 170; } 100% { height: 85; y: 85; } }
+    @keyframes dotPulse { 0%,100% { r: 3; opacity: 0.8; } 50% { r: 5; opacity: 1; } }
+    @keyframes lineTrace { 0% { stroke-dashoffset: 800; } 100% { stroke-dashoffset: 0; } }
+    @keyframes nodeGlow { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+    @keyframes dataFlow { 0% { transform: translateX(-20px); opacity: 0; } 50% { opacity: 1; } 100% { transform: translateX(20px); opacity: 0; } }
+  </style>
+
+  <!-- Card -->
+  <rect width="900" height="220" rx="12" fill="#0a0a0f"/>
+  <rect x="1" y="1" width="898" height="218" rx="11" fill="none" stroke="url(#cg)" stroke-width="1" stroke-dasharray="12 8" style="animation: borderRun 2s linear infinite"/>
+  
+  <!-- Scan -->
+  <rect x="2" y="0" width="896" height="40" rx="11" fill="#0ff" opacity="0.05" style="animation: scanDown 5s linear infinite"/>
+
+  <!-- Corners -->
+  <g filter="url(#cg-glow)" opacity="0.6">
+    <path d="M14,22 L14,12 L24,12" fill="none" stroke="#0ff" stroke-width="1.5"/>
+    <path d="M876,12 L886,12 L886,22" fill="none" stroke="#0ff" stroke-width="1.5"/>
+    <path d="M14,198 L14,208 L24,208" fill="none" stroke="#f0f" stroke-width="1.5"/>
+    <path d="M876,208 L886,208 L886,198" fill="none" stroke="#f0f" stroke-width="1.5"/>
+  </g>
+
+  <!-- Title -->
+  <text x="450" y="30" font-family="'Courier New', monospace" font-size="10" fill="#555" text-anchor="middle" style="animation: pulse 3s infinite">QUANTUM_TELEMETRY // YEAR 2070</text>
+
+  <!-- Horizontal grid lines -->
+  <g opacity="0.08" stroke="#0ff" stroke-width="0.5">
+    <line x1="70" y1="60" x2="830" y2="60"/>
+    <line x1="70" y1="90" x2="830" y2="90"/>
+    <line x1="70" y1="120" x2="830" y2="120"/>
+    <line x1="70" y1="150" x2="830" y2="150"/>
+    <line x1="70" y1="170" x2="830" y2="170"/>
+  </g>
+  
+  <!-- Y-axis labels -->
+  <g font-family="monospace" font-size="8" fill="#333" text-anchor="end">
+    <text x="65" y="63">100</text>
+    <text x="65" y="93">75</text>
+    <text x="65" y="123">50</text>
+    <text x="65" y="153">25</text>
+    <text x="65" y="173">0</text>
+  </g>
+
+  <!-- Animated bars -->
+  <g filter="url(#cg-glow-sm)">
+    <rect x="95" width="40" rx="3" fill="url(#barGrad1)" opacity="0.85" y="170" height="0" style="animation: barRise1 1.5s ease-out 0.1s forwards"/>
+    <rect x="155" width="40" rx="3" fill="url(#barGrad2)" opacity="0.85" y="170" height="0" style="animation: barRise2 1.5s ease-out 0.2s forwards"/>
+    <rect x="215" width="40" rx="3" fill="url(#barGrad3)" opacity="0.85" y="170" height="0" style="animation: barRise3 1.5s ease-out 0.3s forwards"/>
+    <rect x="275" width="40" rx="3" fill="url(#barGrad1)" opacity="0.85" y="170" height="0" style="animation: barRise4 1.5s ease-out 0.4s forwards"/>
+    <rect x="335" width="40" rx="3" fill="url(#barGrad2)" opacity="0.85" y="170" height="0" style="animation: barRise5 1.5s ease-out 0.5s forwards"/>
+    <rect x="395" width="40" rx="3" fill="url(#barGrad3)" opacity="0.85" y="170" height="0" style="animation: barRise6 1.5s ease-out 0.6s forwards"/>
+    <rect x="455" width="40" rx="3" fill="url(#barGrad1)" opacity="0.85" y="170" height="0" style="animation: barRise7 1.5s ease-out 0.7s forwards"/>
+    <rect x="515" width="40" rx="3" fill="url(#barGrad2)" opacity="0.85" y="170" height="0" style="animation: barRise8 1.5s ease-out 0.8s forwards"/>
+    <rect x="575" width="40" rx="3" fill="url(#barGrad3)" opacity="0.85" y="170" height="0" style="animation: barRise9 1.5s ease-out 0.9s forwards"/>
+    <rect x="635" width="40" rx="3" fill="url(#barGrad1)" opacity="0.85" y="170" height="0" style="animation: barRise10 1.5s ease-out 1.0s forwards"/>
+    <rect x="695" width="40" rx="3" fill="url(#barGrad2)" opacity="0.85" y="170" height="0" style="animation: barRise11 1.5s ease-out 1.1s forwards"/>
+    <rect x="755" width="40" rx="3" fill="url(#barGrad3)" opacity="0.85" y="170" height="0" style="animation: barRise12 1.5s ease-out 1.2s forwards"/>
+  </g>
+
+  <!-- Trend line tracing over bars -->
+  <polyline points="115,110 175,80 235,125 295,60 355,95 415,40 475,115 535,75 595,130 655,50 715,100 775,85" fill="none" stroke="#0ff" stroke-width="2" filter="url(#cg-glow)" stroke-dasharray="800" stroke-dashoffset="800" style="animation: lineTrace 3s ease-out 1.5s forwards" stroke-linejoin="round"/>
+
+  <!-- Glowing nodes on trend line -->
+  <g style="animation: nodeGlow 2s ease-in-out 3s infinite">
+    <circle cx="115" cy="110" r="3" fill="#0ff" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 3s infinite"/>
+    <circle cx="175" cy="80" r="3" fill="#f0f" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 3.2s infinite"/>
+    <circle cx="235" cy="125" r="3" fill="#0f0" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 3.4s infinite"/>
+    <circle cx="295" cy="60" r="3" fill="#0ff" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 3.6s infinite"/>
+    <circle cx="355" cy="95" r="3" fill="#f0f" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 3.8s infinite"/>
+    <circle cx="415" cy="40" r="3" fill="#0f0" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 4.0s infinite"/>
+    <circle cx="475" cy="115" r="3" fill="#0ff" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 4.2s infinite"/>
+    <circle cx="535" cy="75" r="3" fill="#f0f" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 4.4s infinite"/>
+    <circle cx="595" cy="130" r="3" fill="#0f0" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 4.6s infinite"/>
+    <circle cx="655" cy="50" r="3" fill="#0ff" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 4.8s infinite"/>
+    <circle cx="715" cy="100" r="3" fill="#f0f" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 5.0s infinite"/>
+    <circle cx="775" cy="85" r="3" fill="#0f0" filter="url(#cg-glow-sm)" opacity="0" style="animation: dotPulse 2s ease-in-out 5.2s infinite"/>
+  </g>
+
+  <!-- Month labels -->
+  <g font-family="monospace" font-size="8" fill="#444" text-anchor="middle">
+    <text x="115" y="188">JAN</text>
+    <text x="175" y="188">FEB</text>
+    <text x="235" y="188">MAR</text>
+    <text x="295" y="188">APR</text>
+    <text x="355" y="188">MAY</text>
+    <text x="415" y="188">JUN</text>
+    <text x="475" y="188">JUL</text>
+    <text x="535" y="188">AUG</text>
+    <text x="595" y="188">SEP</text>
+    <text x="655" y="188">OCT</text>
+    <text x="715" y="188">NOV</text>
+    <text x="775" y="188">DEC</text>
+  </g>
+
+  <!-- Data flow particles on the trend line -->
+  <circle r="2" fill="#0ff" filter="url(#cg-glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M115,110 L175,80 L235,125 L295,60 L355,95 L415,40 L475,115 L535,75 L595,130 L655,50 L715,100 L775,85"/>
+  </circle>
+  <circle r="2" fill="#f0f" filter="url(#cg-glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="2s" path="M115,110 L175,80 L235,125 L295,60 L355,95 L415,40 L475,115 L535,75 L595,130 L655,50 L715,100 L775,85"/>
+  </circle>
+
+  <!-- Bottom status -->
+  <text x="450" y="210" font-family="monospace" font-size="8" fill="#333" text-anchor="middle" style="animation: pulse 4s infinite">◆ NEURAL_COMMITS_TRACKED ◆ QUANTUM_SYNC ◆ 2070.ENCRYPTED ◆</text>
+</svg>

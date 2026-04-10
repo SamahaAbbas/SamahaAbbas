@@ -142,7 +142,7 @@ const SamahaAbbas = {
 <div align="center">
 
 <!-- STREAK STATS -->
-<img src="https://nirzak-streak-stats.vercel.app/?user=SamahaAbbas&theme=radical&hide_border=true&background=0d1117&stroke=00ffff&ring=ff00ff&fire=00ffff&currStreakLabel=00ffff&sideLabels=ff00ff&currStreakNum=00ffff&sideNums=ff00ff&dates=444444" width="70%"/>
+<img src="https://streak-stats.demolab.com/?user=SamahaAbbas&theme=radical&hide_border=true&background=0d1117&stroke=00ffff&ring=ff00ff&fire=00ffff&currStreakLabel=00ffff&sideLabels=ff00ff&currStreakNum=00ffff&sideNums=ff00ff&dates=444444" width="70%"/>
 
 <br/><br/>
 
@@ -154,14 +154,10 @@ const SamahaAbbas = {
 <!-- ═══════════════ DIVIDER ═══════════════ -->
 <img src="assets/wave-divider.svg" width="100%"/>
 
-<!-- ▓▓▓▓▓▓▓▓▓▓ SNAKE ANIMATION ▓▓▓▓▓▓▓▓▓▓ -->
+<!-- ▓▓▓▓▓▓▓▓▓▓ QUANTUM TELEMETRY ▓▓▓▓▓▓▓▓▓▓ -->
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SamahaAbbas/SamahaAbbas/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SamahaAbbas/SamahaAbbas/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/SamahaAbbas/SamahaAbbas/output/github-snake-dark.svg" width="100%" />
-</picture>
+<img src="assets/quantum-telemetry.svg" width="100%" alt="Quantum Telemetry — Year 2070"/>
 </div>
 
 <!-- ═══════════════ DIVIDER ═══════════════ -->
