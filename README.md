@@ -11,7 +11,7 @@
 <img src="https://capsule-render.vercel.app/api?type=transparent&height=40&text=&fontSize=0&color=0:00ffff,100:ff00ff" width="100%"/>
 
 <!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=80&lines=%3E+SYSTEM+BOOT...+NEURAL+LINK+ESTABLISHED;%3E+Welcome+to+the+future+of+automation+%F0%9F%94%AE;%3E+Quantum+Core+Active...+Year+2070+%E2%9A%A1" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&repeat=true&random=false&width=700&height=45&lines=%3E+SYSTEM+BOOT...+NEURAL+LINK+ESTABLISHED;%3E+Welcome+to+the+future+of+automation+%F0%9F%94%AE;%3E+Quantum+Core+Active...+Year+2070+%E2%9A%A1" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -97,11 +97,7 @@ const SamahaAbbas = {
 
 <!-- ▓▓▓▓▓▓▓▓▓▓ TECH STACK ▓▓▓▓▓▓▓▓▓▓ -->
 
-<h2 align="center">
-<img src="assets/hex-icon.svg" height="24" align="center"/>
-&nbsp;TECH_ARSENAL::2070&nbsp;
-<img src="assets/hex-icon.svg" height="24" align="center"/>
-</h2>
+
 
 <div align="center">
 
@@ -141,11 +137,7 @@ const SamahaAbbas = {
 
 <!-- ▓▓▓▓▓▓▓▓▓▓ GITHUB STATS ▓▓▓▓▓▓▓▓▓▓ -->
 
-<h2 align="center">
-<img src="assets/hex-icon.svg" height="24" align="center"/>
-&nbsp;SYSTEM_METRICS::LIVE&nbsp;
-<img src="assets/hex-icon.svg" height="24" align="center"/>
-</h2>
+
 
 <div align="center">
 
@@ -155,14 +147,7 @@ const SamahaAbbas = {
 <br/><br/>
 
 <!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SamahaAbbas&bg_color=0d1117&color=00ffff&line=ff00ff&point=00ffff&area=true&area_color=ff00ff&hide_border=true&custom_title=NEURAL%20ACTIVITY%20%E2%80%94%20CONTRIBUTION%20HEATMAP" width="95%"/>
-
-<br/><br/>
-
-<!-- STATS CARDS SIDE BY SIDE -->
-<img src="https://github-readme-stats.vercel.app/api?username=SamahaAbbas&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ffff&text_color=c8d6e5&icon_color=ff00ff&include_all_commits=true&count_private=true" width="48%"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamahaAbbas&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ffff&text_color=c8d6e5&layout=compact" width="40%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SamahaAbbas&bg_color=0d1117&color=00ffff&line=ff00ff&point=00ffff&area=true&area_color=ff00ff&hide_border=true&radius=16&custom_title=NEURAL%20ACTIVITY%20%E2%80%94%20CONTRIBUTION%20HEATMAP" width="95%"/>
 
 </div>
 
@@ -170,12 +155,6 @@ const SamahaAbbas = {
 <img src="assets/wave-divider.svg" width="100%"/>
 
 <!-- ▓▓▓▓▓▓▓▓▓▓ SNAKE ANIMATION ▓▓▓▓▓▓▓▓▓▓ -->
-
-<h2 align="center">
-<img src="assets/hex-icon.svg" height="24" align="center"/>
-&nbsp;CONTRIBUTION_MATRIX::SNAKE&nbsp;
-<img src="assets/hex-icon.svg" height="24" align="center"/>
-</h2>
 
 <div align="center">
 <picture>
@@ -191,8 +170,6 @@ const SamahaAbbas = {
 <!-- ▓▓▓▓▓▓▓▓▓▓ QUOTE ▓▓▓▓▓▓▓▓▓▓ -->
 
 <div align="center">
-
-### `⟨ INTERCEPTED_TRANSMISSION ⟩`
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote_color=00ffff&bg_color=0d1117&border_color=ff00ff" alt="Dev Quote"/>
 

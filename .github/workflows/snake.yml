@@ -62,15 +62,13 @@ jobs:
 
 
 
-          # Define the output files and their configurations
+          # Define the output files — cyberpunk neon theme
 
           outputs: |
 
-            dist/github-snake.svg
+            dist/github-snake.svg?color_snake=#00ffff&color_dots=#0d1117,#1a0a2e,#2d1b69,#7b2fbe,#ff00ff
 
-            dist/github-snake-dark.svg?palette=github-dark
-
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-snake-dark.svg?color_snake=#00ffff&color_dots=#0d1117,#0a1628,#0d2847,#1a4a7a,#00ffff
 
         env:
 
