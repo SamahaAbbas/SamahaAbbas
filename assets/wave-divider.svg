@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="50" viewBox="0 0 900 50">
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="15%" stop-color="#0ff">
+        <animate attributeName="stop-color" values="#0ff;#f0f;#0ff" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#f0f">
+        <animate attributeName="stop-color" values="#f0f;#0f0;#f0f" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="85%" stop-color="#0ff">
+        <animate attributeName="stop-color" values="#0ff;#f0f;#0ff" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <filter id="fg-glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    @keyframes waveFlow { to { stroke-dashoffset: -100; } }
+  </style>
+  
+  <!-- Background line -->
+  <line x1="50" y1="25" x2="850" y2="25" stroke="#1a1a2e" stroke-width="1"/>
+  
+  <!-- Animated wave line -->
+  <path d="M50,25 Q150,10 250,25 T450,25 T650,25 T850,25" fill="none" stroke="url(#fg)" stroke-width="2" filter="url(#fg-glow)" stroke-dasharray="20 10" style="animation: waveFlow 3s linear infinite"/>
+  
+  <!-- Center diamond -->
+  <g transform="translate(450,25)" filter="url(#fg-glow)">
+    <animateTransform attributeName="transform" type="rotate" values="0 450 25;360 450 25" dur="10s" repeatCount="indefinite" additive="sum"/>
+    <rect x="-5" y="-5" width="10" height="10" fill="#0ff" transform="rotate(45)">
+      <animate attributeName="fill" values="#0ff;#f0f;#0ff" dur="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

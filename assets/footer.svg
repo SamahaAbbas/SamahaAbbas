@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+  <defs>
+    <linearGradient id="ft-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ff">
+        <animate attributeName="stop-color" values="#0ff;#f0f;#0ff" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#f0f">
+        <animate attributeName="stop-color" values="#f0f;#0ff;#f0f" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="ft-g">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    @keyframes pulse2 { 0%,100% { opacity:0.5; } 50% { opacity:1; } }
+    @keyframes borderRun { to { stroke-dashoffset: -50; } }
+  </style>
+  
+  <!-- Box -->
+  <rect x="1" y="1" width="898" height="118" rx="10" fill="#0d0d14"/>
+  <rect x="1" y="1" width="898" height="118" rx="10" fill="none" stroke="url(#ft-grad)" stroke-width="1" stroke-dasharray="8 8" opacity="0.6" style="animation: borderRun 2s linear infinite"/>
+  
+  <!-- Content -->
+  <g font-family="'Courier New', monospace" text-anchor="middle">
+    <text x="450" y="30" font-size="10" fill="#555" style="animation: pulse2 3s infinite">TRANSMISSION.FOOTER</text>
+    
+    <text x="450" y="55" font-size="13" fill="#c8d6e5" filter="url(#ft-g)">
+      「 I automate everything — even my VPN and testing setup 」
+    </text>
+    <text x="450" y="80" font-size="14" fill="url(#ft-grad)" font-weight="bold" filter="url(#ft-g)">
+      btw I use Arch Linux 🐧
+    </text>
+    
+    <text x="450" y="108" font-size="9" fill="#444" style="animation: pulse2 4s infinite">
+      ◆ SIGNAL_LOST ◆ RECONNECTING ◆ YEAR_2070 ◆ QUANTUM_ENCRYPTED ◆
+    </text>
+  </g>
+</svg>

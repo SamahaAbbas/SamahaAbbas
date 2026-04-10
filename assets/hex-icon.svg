@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="30" viewBox="0 0 60 30">
+  <defs>
+    <linearGradient id="tg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ff">
+        <animate attributeName="stop-color" values="#0ff;#f0f;#0ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#f0f">
+        <animate attributeName="stop-color" values="#f0f;#0ff;#f0f" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="tg-g">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    @keyframes sectionPulse { 0%,100% { opacity:0.7; } 50% { opacity:1; } }
+  </style>
+  <text x="30" y="19" font-family="'Courier New', monospace" font-size="14" fill="url(#tg)" text-anchor="middle" font-weight="bold" filter="url(#tg-g)" style="animation: sectionPulse 2s infinite">⬡</text>
+</svg>
